@@ -1,0 +1,86 @@
+#position-sec{
+	width:100%;
+	margin:30px;
+}
+
+
+h1, h2, h3{
+	text-align:center;
+}
+
+.container-relative, .container-absolute, .container-fixed, .container-sticky, .container-static{
+	width:50%;
+	border:5px solid black;
+	margin:0 auto;
+	height:300px;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13, .box14, .box15{
+	padding:50px;
+	border:1px solid black;
+	margin:10px;
+	background-color:powderblue;
+	
+}
+
+
+.static-position{
+	display:flex;
+	position:static;
+}
+
+.relative-position{
+	display:flex;
+	flex-wrap:wrap;
+	position:relative;
+	justify-content:center;
+	align-items:center;
+}
+
+.box2{
+	top:20px;
+	position:relative;
+}
+
+.absolute-position{
+	display:flex;
+	flex-wrap:wrap;
+	position:relative;
+	align-items:center;
+}
+
+.box7{
+	left:75px;
+	top:80px;
+	position:absolute;
+	align-items:center;
+}
+
+.box9{
+	top:80px;
+	position:absolute;
+	left:200px;
+}
+	
+.fixed-position{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.box11{
+	position:fixed;
+	top:400px;
+	right:20px;
+}
+
+.sticky-position{
+	position:sticky;
+	background-color:red;
+	top:0;
+}
+
+.sticky-para{
+	text-align:center;
+}
+	
